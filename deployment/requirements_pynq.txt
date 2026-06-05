@@ -1,0 +1,16 @@
+# Requirements for PYNQ-Z2 board deployment
+# Install with: pip3 install -r requirements_pynq.txt
+
+# Core
+numpy>=1.19.0
+opencv-python-headless>=4.5.0
+
+# Choose ONE of the following (TFLite is lighter for the board):
+# Option A — Full TensorFlow (heavy, ~500MB)
+# tensorflow>=2.9.0
+
+# Option B — TFLite runtime only (recommended for PYNQ)
+tflite-runtime>=2.9.0
+
+# Optional — for CSV attendance log and display
+pandas>=1.3.0

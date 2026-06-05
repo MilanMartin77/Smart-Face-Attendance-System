@@ -1,0 +1,33 @@
+# Dataset (too large for git — use Google Drive)
+dataset/
+*.zip
+
+# Model files (upload as releases or link Drive)
+*.h5
+*.tflite
+*.pkl
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+attendance_log.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
