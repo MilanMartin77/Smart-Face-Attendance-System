@@ -50,15 +50,6 @@
 
 ---
 
-## 👥 Team
-
-| Name | Role |
-|------|------|
-| _(Member 1)_ | Dataset collection, PYNQ board deployment |
-| _(Member 2)_ | Colab training pipeline, TFLite export |
-| _(Member 3)_ | HLS accelerator, Vivado integration |
-
----
 
 ## 📁 Repository Structure
 
