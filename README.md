@@ -151,8 +151,8 @@ See [`fpga_accelerator/README.md`](fpga_accelerator/README.md) for the full HLS 
 | **Camera** | USB Webcam (UVC) |
 | **Face model** | FaceNet (InceptionResNetV2, pretrained, 512-d embeddings) |
 | **Inference runtime** | TFLite (`tflite_runtime`) |
-| **HLS tool** | Vitis HLS 2022.x |
-| **FPGA tool** | Vivado 2022.x |
+| **HLS tool** | Vitis HLS 2022.3 |
+| **FPGA tool** | Vivado 2022.3 |
 | **Training** | Google Colab (T4 GPU) |
 | **Language** | Python 3.8+, C++ (HLS) |
 
@@ -165,8 +165,6 @@ See [`fpga_accelerator/README.md`](fpga_accelerator/README.md) for the full HLS 
 | Dataset | 3 persons × ~40 images |
 | Embedding dimension | 512 (FaceNet) |
 | Similarity threshold | 0.60 (cosine) |
-| PC test accuracy | _(add after testing)_ |
-| PYNQ inference FPS | _(add after testing)_ |
 | HLS conv layer II | 1 (pipelined) |
 | Bitstream | ✅ Generated |
 
@@ -174,9 +172,8 @@ See [`fpga_accelerator/README.md`](fpga_accelerator/README.md) for the full HLS 
 
 ## 📸 Screenshots
 
-> See `assets/screenshots/` for:
+> See Results for:
 > - Vivado block design
-> - HLS synthesis report
 > - PC test webcam output
 > - PYNQ Jupyter notebook output
 
